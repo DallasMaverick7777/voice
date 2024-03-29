@@ -44,9 +44,9 @@ function Messages({ messages }: Props) {
       id: 4,
     },
     {
-      sender: "Hello",
+      sender: "Who is Julia?",
       response:
-        "Once upon a time, in a small village nestled at the foot of a mighty mountain, there lived a young",
+        "The sweetest girl in the world!",
       id: 4,
     },
   ];
