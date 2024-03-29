@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
-import activeAssistantIcon from "@/img/active.gif";
-import notActiveAssistantIcon from "@/img/notactive.png";
+import activeAssistantIcon from "../Img/active.gif";
+import notActiveAssistantIcon from "../Img/notactive.png";
 import { useFormStatus } from "react-dom";
 
 const mimeType = "audio/webm";
