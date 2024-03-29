@@ -1,4 +1,4 @@
-"use client";
+'use client'
 
 import { ChangeEvent, useEffect, useState } from "react";
 
@@ -24,7 +24,7 @@ function VoiceSynthesizer({
     if (typeof window !== 'undefined') {
       setSynth(window.speechSynthesis);
     }
-  }, [window]);
+  }, []);
 
   useEffect(() => {
     if (!state.response || !synth) return;
@@ -46,7 +46,7 @@ function VoiceSynthesizer({
   useEffect(() => {
     const voices = window.speechSynthesis.getVoices();
     setVoice(voices[0]);
-  }, [window]);
+  }, []);
 
   const handleVoiceChange = (e: ChangeEvent<HTMLSelectElement>) => {
     const voices = window.speechSynthesis.getVoices();
